@@ -16,11 +16,8 @@ public class FibonacciSeries
             nextnum = sum;
             sum = prevnum + nextnum;
             System.out.println(sum);
-            
-            
         }
         sc.close();
-        
     }
     
 }

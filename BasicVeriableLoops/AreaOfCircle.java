@@ -3,7 +3,7 @@ package BasicVeriableLoops;
 import java.util.Scanner;
 class AreaOfCircle
 {
-    public static void main(String agrs [])
+    public static void main(String[] agrs)
     {
         Scanner sc = new Scanner(System.in);
         int r;

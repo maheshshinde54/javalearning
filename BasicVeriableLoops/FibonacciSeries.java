@@ -8,7 +8,7 @@ public class FibonacciSeries
     {
         Scanner sc = new Scanner(System.in);
         int sum =0;
-        int prevnum =0;
+        int prevnum;
         int nextnum = 1;
         System.out.println("Input a number to find Fibonacci Series");
         int limit =  sc.nextInt();

@@ -11,7 +11,7 @@ public class Swappingwith3rdnum
         int num1 = reader.nextInt();
         System.out.println("Enter second number");
         int num2 = reader.nextInt();
-        int num3 = 0;
+        int num3;
         num3=num1+num2;
         num2=num3-num2;
         num1=num3-num1;

@@ -11,7 +11,7 @@ public class ArmstrongNumber
         int range = reader.nextInt();
         for( int i = 0 ; i < range ; i++)
         {
-            int decimal,tenth,hundredth=0;
+            int decimal,tenth,hundredth;
             hundredth=i/100;
             tenth=(i-hundredth*100)/10;
             decimal = i-hundredth*100-tenth*10;

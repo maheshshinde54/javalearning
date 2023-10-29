@@ -21,7 +21,7 @@ class Dog extends Animal
 }
 public class Pet extends Dog
 {
-    public static void main(String agrs [])
+    public static void main(String [] agrs )
     {
         Dog c = new Dog();
         c.makesound();

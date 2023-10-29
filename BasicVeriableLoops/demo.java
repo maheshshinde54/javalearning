@@ -10,7 +10,7 @@ public class demo
         int mean,sum=0;
         System.out.println("Enter how many to number to calculate avarage : ");
         int number = reader.nextInt();
-        int allnumber[] = new int[number];
+        int[] allnumber = new int[number];
         for(int i : allnumber)
         {
             allnumber[i]=reader.nextInt();

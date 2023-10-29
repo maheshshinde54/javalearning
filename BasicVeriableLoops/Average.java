@@ -10,7 +10,7 @@ public class Average
         int mean,sum=0;
         System.out.println("Enter how many to number to calculate avarage : ");
         int number = reader.nextInt();
-        int allnumber[] = new int[number];
+        int[] allnumber = new int[number];
         for(int i = 0; i<number; i++)
         {
             allnumber[i]=reader.nextInt();

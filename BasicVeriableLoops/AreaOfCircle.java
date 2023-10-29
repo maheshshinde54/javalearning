@@ -1,3 +1,5 @@
+package BasicVeriableLoops;
+
 import java.util.Scanner;
 class AreaOfCircle
 {
